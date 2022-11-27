@@ -129,7 +129,7 @@ button:active {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -160,6 +160,11 @@ button:active {
   height: 200px;
   display: flex;
   align-items: flex-end;
+}
+
+.book-list{
+  display: flex;
+  justify-content: space-around;
 }
 
 .book-shelf-changer {
